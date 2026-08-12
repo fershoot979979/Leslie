@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#090b18" />
+  <meta
+    name="description"
+    content="Álbum 3D del primer año de una bebé, organizado mes a mes."
+  />
+  <title>Mi Primer Año ♡</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="ambient-layer" aria-hidden="true"></div>
+
+  <main>
+    <!-- PORTADA 3D -->
+    <section class="book-stage" id="bookStage">
+      <div class="book-wrap">
+        <div class="book-shadow" aria-hidden="true"></div>
+
+        <div class="book" id="book">
+          <div class="book-back" aria-hidden="true"></div>
+
+          <div class="book-pages" aria-hidden="true">
+            <div class="page-lines"></div>
+          </div>
+
+          <button class="book-cover" id="openAlbum" aria-label="Abrir álbum">
+            <span class="cover-edge" aria-hidden="true"></span>
+            <span class="cover-spark sparkle-a" aria-hidden="true">✦</span>
+            <span class="cover-spark sparkle-b" aria-hidden="true">♡</span>
+            <span class="cover-spark sparkle-c" aria-hidden="true">✧</span>
+
+            <span class="cover-inner">
+              <span class="cover-kicker">Nuestro pequeño universo</span>
+
+              <span class="cover-title">
+                <strong>Mi Primer</strong>
+                <strong>Año</strong>
+              </span>
+
+              <span class="cover-heart" aria-hidden="true">♡</span>
+              <span class="cover-subtitle">12 meses llenos de recuerdos</span>
+
+              <span class="open-hint">
+                <span>Abrir álbum</span>
+                <b aria-hidden="true">✦</b>
+              </span>
+            </span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- INTERIOR -->
+    <section class="album-panel" id="albumPanel" aria-hidden="true">
+      <div class="album-sheet">
+        <div class="sheet-line top-line" aria-hidden="true"></div>
+
+        <header class="album-header">
+          <div class="album-heading">
+            <span class="eyebrow">Álbum de recuerdos</span>
+            <h1>Tu primer año Leslie,<br /><span>mes a mes ♡</span></h1>
+            <p>
+              Cada cuadro guarda una etapa especial desde que llegaste a nuestra vida.
+              Toca un mes y entra a nuestros recuerdos.
+            </p>
+          </div>
+
+          <button class="close-album" id="closeAlbum" aria-label="Cerrar álbum">
+            <span aria-hidden="true">‹</span>
+            Cerrar álbum
+          </button>
+        </header>
+
+        <div class="section-divider" aria-hidden="true">
+          <span></span>
+          <b>✦</b>
+          <span></span>
+        </div>
+
+        <div class="months-grid" id="monthsGrid"></div>
+
+        <div class="sheet-line bottom-line" aria-hidden="true"></div>
+      </div>
+    </section>
+  </main>
+
+  <!-- MODAL DE MES -->
+  <div class="month-modal" id="monthModal" aria-hidden="true">
+    <button class="modal-backdrop" data-close-modal aria-label="Cerrar mes"></button>
+
+    <section class="modal-card" role="dialog" aria-modal="true" aria-labelledby="monthTitle">
+      <div class="modal-accent-line" aria-hidden="true"></div>
+
+      <button class="modal-close" data-close-modal aria-label="Cerrar">×</button>
+
+      <div class="modal-heading">
+        <span id="monthLabel">Mes 1</span>
+        <h2 id="monthTitle">Primer mes</h2>
+        <p id="monthSubtitle">Aquí comienza una historia preciosa.</p>
+      </div>
+
+      <div class="photos-grid" id="photosGrid"></div>
+    </section>
+  </div>
+
+  <!-- VISOR -->
+  <div class="photo-viewer" id="photoViewer" aria-hidden="true">
+    <button class="viewer-backdrop" data-close-viewer aria-label="Cerrar foto"></button>
+
+    <figure class="viewer-card">
+      <div class="viewer-accent-line" aria-hidden="true"></div>
+      <button class="viewer-close" data-close-viewer aria-label="Cerrar">×</button>
+      <img id="viewerImage" src="" alt="" decoding="async" />
+      <figcaption id="viewerCaption"></figcaption>
+    </figure>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

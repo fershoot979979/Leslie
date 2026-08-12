@@ -1,0 +1,21 @@
+<svg width="900" height="1100" viewBox="0 0 900 1100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="pbg" x1="80" y1="100" x2="820" y2="1000" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6184C7"/>
+      <stop offset="1" stop-color="#8FD7C8"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="1100" rx="72" fill="url(#pbg)"/>
+  <circle cx="130" cy="170" r="44" fill="white" fill-opacity=".15"/>
+  <circle cx="770" cy="220" r="28" fill="white" fill-opacity=".2"/>
+  <circle cx="720" cy="870" r="66" fill="white" fill-opacity=".12"/>
+  <path d="M235 700C235 487 332 365 450 365C568 365 665 487 665 700V870H235V700Z" fill="#FCF8FF" fill-opacity=".94"/>
+  <circle cx="450" cy="468" r="138" fill="#FFE6D1"/>
+  <path d="M333 452C345 342 402 302 451 302C511 302 565 359 572 453C535 418 497 402 452 402C406 402 367 417 333 452Z" fill="#86E4C9" fill-opacity=".74"/>
+  <circle cx="401" cy="478" r="11" fill="#4B4659"/>
+  <circle cx="501" cy="478" r="11" fill="#4B4659"/>
+  <path d="M418 532C439 550 462 550 484 532" stroke="#E58FAE" stroke-width="10" stroke-linecap="round"/>
+  <text x="450" y="965" text-anchor="middle" fill="white" fill-opacity=".95" font-family="Arial, sans-serif" font-size="42" font-weight="700">Foto 4</text>
+  <text x="450" y="1015" text-anchor="middle" fill="white" fill-opacity=".68" font-family="Arial, sans-serif" font-size="23">Reemplázame por tu foto</text>
+  <text x="735" y="115" text-anchor="middle" fill="white" fill-opacity=".78" font-family="Arial, sans-serif" font-size="42">★</text>
+</svg>
